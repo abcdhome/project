@@ -2,7 +2,7 @@ const net = require('net');
 const readline = require('readline');
 
 const SERVER_HOST = process.env.SERVER_HOST || 'localhost';
-const SERVER_PORT = process.env.SERVER_PORT || 3000;
+const SERVER_PORT = process.env.SERVER_PORT || 80;
 
 const client = new net.Socket();
 

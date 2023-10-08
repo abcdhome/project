@@ -3,7 +3,7 @@ const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 const GAME_DURATION = 600000; // 10 minutes in milliseconds
 
 let systemClock = 0;

@@ -7,8 +7,10 @@
     "start": "node server.js"
   },
   "author": "Your Name",
-  "license": "MIT", 
+  "license": "MIT",
   "dependencies": {
-   
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+    
   }
 }
